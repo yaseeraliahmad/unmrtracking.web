@@ -33,7 +33,7 @@ export default ({ f7route }) => {
   return (
     <Page noToolbar noNavbar noSwipeback loginScreen ptrMousewheel={true} onPageInit={onPageInit}>
       
-      <LoginScreenTitle><img src="/img/logo.png" style={{width: "200px",borderRadius: 20}}/><br/>Login</LoginScreenTitle>
+      <LoginScreenTitle><img src="/img/logo.png" style={{width: "200px",borderRadius: 20}}/><br/>Flight - Login</LoginScreenTitle>
       <List form strongIos dividersIos insetIos id="dataform">
         <ListInput label="Email" type="email" placeholder="Email" name="userid" required validate floatingLabel clearButton outline>
         <Icon material="person" slot="media" />
