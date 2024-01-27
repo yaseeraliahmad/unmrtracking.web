@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { f7 } from 'framework7-react';
 
-export var baseurl="https://unmrtracking-api-main-git-yaseeraliahmadinfo-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/";
+export var baseurl="https://unmrtracking-api-main-git-yaseeraliahmadinfo-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com";
 export var role=(localStorage.getItem("role")===null)?[]:JSON.parse(localStorage.getItem("role"));
 export function setRole(role1){
     role=(role1===null)?[]:role1;
